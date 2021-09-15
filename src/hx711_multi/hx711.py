@@ -366,7 +366,7 @@ class HX711:
                     f'zeroing with {len(adc._reads_filtered)} datapoints')
                 adc.zero_from_last_measurement()
 
-    def tar(zero_offset: float):
+    def tare(zero_offset: float):
         adc: ADC
         adc.zero(offset = zero_offset)
 
